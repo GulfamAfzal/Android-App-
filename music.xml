@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎵 Music Studio"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Pick File Button -->
+    <Button
+        android:id="@+id/pickFileButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="📂 Pick Music File"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"/>
+
+    <!-- Play Button -->
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="▶ Play"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Pause Button -->
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="⏸ Pause"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Stop Button -->
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="⏹ Stop"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Cancel Selection Button -->
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="❌ Cancel"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
