@@ -8,12 +8,7 @@ Audio Playback: Play selected sound files with a simple tap.
 User-Friendly Interface: Intuitive and clean design for easy navigation.
 File Format Support: Compatible with popular audio formats (e.g., MP3, WAV).
 Installation
-Clone this repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/GulfamAfzal/Android App.git
 Open the project in Android Studio.
 
 Ensure that the required dependencies are added and sync the project.
